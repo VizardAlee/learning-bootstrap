@@ -6,35 +6,33 @@
   <title>Net Ninja Pro - The Book</title>
 </head>
 <body>
-  <!-- basic buttons -->
-  <h2>buttons</h2>
-  <button class="btn btn-primary">primary button</button>
-  <button class="btn btn-secondary">secondary button</button>
+  <!-- margin and padding -->
+  <div class="bg-primary m-1 p-1">small margin and padding</div>
+  <div class="bg-primary m-5 p-5">large margin and padding</div>
+  <div class="bg-primary my-3 px-5">margin in y direction and padding in x direction</div>
+  <div class="bg-primary mt-3 mb-4 ms-5 me-1 ps-5 pt-4 pe-2 pb-1">m & p for each direction</div>
 
-  <!-- anchor tags as buttons -->
-  <h2>links as buttons</h2>
-  <a href="#" class="btn btn-info">info anchor tag</a>
-  <a href="#" class="btn btn-success">success anchor tag</a>
+  <!-- borders -->
+  <div class="m-3 p-3 border">default border</div>
+  <div class="m-3 p-3 border-top border-end">individual borders</div>
+  <div class="m-3 p-3 border-start border-success">border success color at start</div>
+  <div class="m-3 p-3 border-start border-danger border-5">thicker border</div>
+  <div class="m-3 p-3 rounded border border-5">rouded corners</div>
+  <div class="m-3 p-3 rounded-pill border border-5">rounded pill corners</div>
+
+  <!-- box shadow -->
+  <div class="m-3 p-3 shadow-sm">elements with small box-shadow</div>
+  <div class="m-3 p-3 shadow">elements with large box-shadow</div>
 
 
-  <!-- button sizes -->
-  <h2>button sizes</h2>
-  <button class="btn btn-lg btn-danger">large danger button</button>
-  <button class="btn btn-sm btn-warning">small warning button</button>
+  <!-- font weight -->
+  <p class="fw-bold">bold text</p>
+  <p class="fw-bolder">bolder text</p>
+  <p>normal text</p>
+  <p class="fw-light">light text</p>
+  <p class="fst-italic">italic text</p>
+  <p class="fst-italic fw-light">italic light text</p>
 
-  <!-- outlined styles -->
-  <h2>Button Styles</h2>
-  <button class="btn btn-outline-primary">outlined primary button</button>
-  <button class="btn btn-outline-secondary btn-lg">large outlined secondary button</button>
-
-  <!-- button groups -->
-  <h2>button groups</h2>
-  <div class="btn-group">
-    <a href="#" class="btn btn-primary">button 1</a>
-    <a href="#" class="btn btn-warning">button 2</a>
-    <a href="#" class="btn btn-success">button 3</a>
-
-  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
