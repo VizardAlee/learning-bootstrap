@@ -6,22 +6,67 @@
   <title>Net Ninja Pro - The Book</title>
 </head>
 <body>
-  <div class="container my-5">
-    <h2>normal container</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nulla debitis repellendus aut at labore magni laborum provident neque accusantium.</p>
+  <div class="container-lg my-5">
+    <h2>basic grid</h2>
+    <div class="row">
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 1</div>
+      </div>
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 2</div>
+      </div>
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 4</div>
+      </div>
+    </div>
   </div>
 
-  <div class="container-fluid">
-    <h2>fluid container</h2>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim non quidem iusto rem explicabo sint doloribus a aliquid. Consequatur, facere?
-  </div>
   <div class="container-lg my-5">
-    <h2>100% width until lg screens, then container</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis labore nemo officia, quisquam quibusdam minus? Unde cupiditate illum neque. Ad optio nostrum ullam non, earum unde suscipit! Perferendis, odit.</p>
+    <h2>column widths</h2>
+    <div class="row">
+      <div class="col-6">
+        <div class="p-5 bg-primary text-light">col 1</div>
+      </div>
+      <div class="col-3">
+        <div class="p-5 bg-primary text-light">col 2</div>
+      </div>
+      <div class="col-3">
+        <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+    </div>
   </div>
-  <div class="container-xl my-5">
-    <h2>100% width until xl screen, then container</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat cupiditate esse ipsam iure illum corrupti dicta voluptatum, hic autem, doloremque nobis praesentium. Culpa, dolore? Natus, quod voluptas? Optio, inventore nam!</p>
+
+  <div class="container-lg my-5">
+    <h2>responsive conlumn widths</h2>
+    <div class="row">
+      <div class="col-sm-4 col-lg-6">
+        <div class="p-5 bg-primary text-light">col 1</div>
+      </div>
+      <div class="col-sm-4 col-lg-3">
+        <div class="p-5 bg-primary text-light">col 2</div>
+      </div>
+      <div class="col-sm-4 col-lg-3">
+        <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-lg my-5">
+    <h2>justifying columns</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="p-5 bg-primary text-light">col 1</div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-5 bg-primary text-light">col 2</div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
